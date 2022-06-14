@@ -20,7 +20,7 @@ const Rightbar = () => {
         <Typography variant='h6' fontWeight={100}>
           Online Friends
         </Typography>
-        <AvatarGroup max={8}>
+        <AvatarGroup max={8} sx={{ cursor: 'pointer' }}>
           <Avatar
             alt='Remy Sharp'
             src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'

@@ -18,7 +18,7 @@ const Post = () => {
       <Card sx={{ margin: 5 }}>
         <CardHeader
           avatar={
-            <Avatar sx={{ bgcolor: 'red' }} aria-label='recipe'>
+            <Avatar sx={{ bgColor: 'red' }} aria-label='recipe'>
               R
             </Avatar>
           }

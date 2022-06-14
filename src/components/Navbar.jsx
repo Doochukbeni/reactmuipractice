@@ -45,21 +45,21 @@ const Navbar = () => {
     <AppBar position='sticky'>
       <StyleToolbar>
         <Typography variant='h6' sx={{ display: { xs: 'none', sm: 'block' } }}>
-          Roi Ayo
+          Roi Doo
         </Typography>
         <Pets sx={{ display: { xs: 'block', sm: 'none' } }} />
         <Search>
           <InputBase placeholder='search...' />
         </Search>
         <Icons>
-          <Badge badgeContent={4} color='error'>
+          <Badge badgeContent={4} color='error' sx={{ cursor: 'pointer' }}>
             <MailIcon />
           </Badge>
-          <Badge badgeContent={2} color='error'>
+          <Badge badgeContent={2} color='error' sx={{ cursor: 'pointer' }}>
             <Notifications />
           </Badge>
           <Avatar
-            sx={{ width: 30, height: 30 }}
+            sx={{ width: 30, height: 30, cursor: 'pointer' }}
             src='https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
             onClick={(e) => setOpen(true)}
           />
